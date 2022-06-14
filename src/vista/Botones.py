@@ -1,7 +1,5 @@
 '''
-Created on 29-04-2022
-
-@author: nicole
+    : 
 '''
 import wx
 
@@ -11,6 +9,10 @@ def onButton(event):
 app = wx.App()
 frame = wx.Frame(None, -1, 'Rompecabezas Deslizante')
 frame.SetDimensions(0,0,900,500)
+
+##
+# Aqui se crea un panel
+#
 
 panel = wx.Panel(frame, wx.ID_ANY)
 button = wx.Button(panel, wx.ID_ANY, 'Comenzar', (600, 350))
