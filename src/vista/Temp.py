@@ -44,9 +44,9 @@ class TimerFrame(wx.Frame):
 
         self.Show()
 
-    #INICIA Y DEFINE EL LOOP POR 1500MILISEG APROX 1 SEG
+    #INICIA Y DEFINE EL LOOP POR 1000MILISEG APROX 1 SEG
     def start(self, event):
-        self.timer.Start(1500)
+        self.timer.Start(1000)
         
     #PAUSA EL LOOP
     def pause(self, event):
